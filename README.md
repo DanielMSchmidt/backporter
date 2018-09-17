@@ -1,23 +1,20 @@
 # backporter [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+
 > Need to backport a bug fix to one or more older versions of your software? This CLI is for you!
 
 ## Installation
 
 ```sh
-$ npm install --save backporter
+$ npm install --g backporter
 ```
 
 ## Usage
 
-```js
-const backporter = require('backporter');
+Run backporter on the PR branch of yours, select the versions you want to backport to and let the magic happen.
 
-backporter('Rainbow');
-```
 ## License
 
-MIT © [Daniel Schmidt]()
-
+MIT © [Daniel Schmidt](http://danielmschmidt.de)
 
 [npm-image]: https://badge.fury.io/js/backporter.svg
 [npm-url]: https://npmjs.org/package/backporter
