@@ -19,7 +19,6 @@
     "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-config-xo": "^0.24.2",
-    "jest": "^23.5.0",
     "travis-deploy-once": "^5.0.7",
     "semantic-release": "^15.9.15"
   },
@@ -58,16 +57,12 @@
     ]
   },
   "scripts": {
-    "pretest": "eslint .",
+    "test": "eslint .",
     "precommit": "lint-staged",
-    "test": "jest",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release"
   },
   "repository": "DanielMSchmidt/backporter",
-  "jest": {
-    "testEnvironment": "node"
-  },
   "license": "MIT",
   "dependencies": {
     "inquirer": "^6.2.0",
