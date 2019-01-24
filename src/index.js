@@ -4,7 +4,7 @@
 const cmd = require("node-cmd");
 const inquirer = require("inquirer");
 
-const BRANCHES = ["master", "release/1.11", "release/1.10", "release/1.9"];
+const BRANCHES = ["master", "release/1.12", "release/1.11", "release/1.10", "release/1.9"];
 
 function gatherInputs() {
   return inquirer.prompt([
