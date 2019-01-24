@@ -1,6 +1,6 @@
 {
   "name": "backporter",
-  "version": "0.0.0-development",
+  "version": "2.0.0",
   "description": "Need to backport a bug fix to one or more older versions of your software? This CLI is for you!",
   "homepage": "",
   "author": {
