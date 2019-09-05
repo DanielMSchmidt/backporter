@@ -65,7 +65,7 @@
   "repository": "DanielMSchmidt/backporter",
   "license": "MIT",
   "dependencies": {
-    "inquirer": "^6.2.0",
+    "inquirer": "^7.0.0",
     "node-cmd": "^3.0.0"
   }
 }
