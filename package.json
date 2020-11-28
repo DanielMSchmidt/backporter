@@ -20,7 +20,7 @@
     "eslint-plugin-prettier": "2.6.2",
     "eslint-config-xo": "0.24.2",
     "travis-deploy-once": "5.0.7",
-    "semantic-release": "15.9.15"
+    "semantic-release": "17.2.3"
   },
   "engines": {
     "npm": ">= 4.0.0"
