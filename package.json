@@ -66,6 +66,6 @@
   "license": "MIT",
   "dependencies": {
     "inquirer": "^6.2.0",
-    "node-cmd": "^3.0.0"
+    "node-cmd": "^4.0.0"
   }
 }
